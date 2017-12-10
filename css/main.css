@@ -1,0 +1,104 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #222;
+  text-align: center;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+/* Nav */
+a.nav-link.social {
+  text-decoration: none;
+  font-size: 4ex;
+  margin-right: 50px;
+  color: #000 !important;
+}
+
+.nav-edit {
+  color: #000 !important;
+  font-size: 2rem;
+}
+
+.fa-twitter:hover, .fa-github:hover, .fa-linkedin:hover, .workLink:hover {
+  color: grey;
+}
+
+/* Body */
+
+.workLink {
+  color: #000;
+}
+
+p.description {
+  color: #000;
+  font-size: 3ex;
+  text-align: justify;
+}
+
+.projects {
+  text-align: center;
+  color: #000;
+  padding-top: 20px;
+}
+
+.projectTitle {
+  color: #000 !important;
+}
+
+a.projectTitle:hover {
+  color: grey !important;
+}
+
+@media (max-width: 320px) {
+  p.description {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 360px) {
+  p.description {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 375px) {
+  p.description {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 414px) {
+  p.description {
+    font-size: 1.5rem;
+  }
+}
