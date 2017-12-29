@@ -42,7 +42,7 @@ a.nav-link.social {
   text-decoration: none;
   font-size: 4ex;
   margin-right: 50px;
-  color: #000 !important;
+  color: #007bff !important;
 }
 
 .nav-edit {
@@ -50,15 +50,15 @@ a.nav-link.social {
   font-size: 2rem;
 }
 
-.fa-twitter:hover, .fa-github:hover, .fa-linkedin:hover, .workLink:hover {
+.fa-twitter:hover, .fa-github:hover, .fa-linkedin:hover {
   color: grey;
 }
 
 /* Body */
 
-.workLink {
+/*.workLink {
   color: #000;
-}
+}*/
 
 p.description {
   color: #000;
@@ -72,17 +72,22 @@ p.description {
   padding-top: 20px;
 }
 
-.projectTitle {
+/*.projectTitle {
   color: #000 !important;
-}
+}*/
 
-a.projectTitle:hover {
+/*a.projectTitle:hover {
   color: grey !important;
-}
+}*/
 
 @media (max-width: 320px) {
   p.description {
     font-size: 1.2rem;
+  }
+
+  a.nav-link.social {
+    text-align: center;
+    margin: 0;
   }
 }
 
@@ -90,15 +95,30 @@ a.projectTitle:hover {
   p.description {
     font-size: 1.2rem;
   }
+
+  a.nav-link.social {
+    text-align: center;
+    margin: 0;
+  }
 }
 
 @media (max-width: 375px) {
   p.description {
     font-size: 1.2rem;
   }
+
+  a.nav-link.social {
+    text-align: center;
+    margin: 0;
+  }
 }
 @media (max-width: 414px) {
   p.description {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
+  }
+
+  a.nav-link.social {
+    text-align: center;
+    margin: 0;
   }
 }
